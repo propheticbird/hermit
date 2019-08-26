@@ -1,11 +1,15 @@
 // Colors
 //
-$theme: #018574;
-$text: #e8eef2;
-$light-grey: #494f5c;
-$dark-grey: #3B3E48;
+$theme: #4287f5;
+$text: #121413;
+$light-grey: #f2f2f0;
+$dark-grey: #d9d9d9;
 $highlight-grey: #7d828a;
 $midnightblue: #2c3e50;
+$footnoteref: #d8e6fd;
+
+//links
+$link: #4287f5;
 
 // Fonts
 //
@@ -22,12 +26,13 @@ $code-fonts: Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida C
   a {
     word-wrap: break-word;
     border: none;
-    box-shadow: inset 0 -4px 0 $theme;
+    padding: 0 0 2px; 
+    box-shadow: inset 0 -1px 0 $theme;
     transition-property: box-shadow;
     transition-duration: .1s;
 
-    &:hover {
-      box-shadow: inset 0 -1em 0 $theme;
-    }
+    // &:hover {
+      // box-shadow: inset 0 -1em 0 $theme;
+    // }
   }
 }

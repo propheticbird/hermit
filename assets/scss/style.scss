@@ -65,6 +65,7 @@ pre {
   // -webkit-overflow-scrolling: touch;
 
   code {
+    color: #eee;
     padding: 0;
     margin: 0;
     background: $midnightblue;
@@ -72,8 +73,8 @@ pre {
 }
 
 code {
-  color: #eee;
-  background: $highlight-grey;
+  color: $text;
+  background-color: $dark-grey;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -106,14 +107,14 @@ a {
   transition-timing-function: ease-out;
 
   &:hover {
-    color: #fff;
-    text-shadow: 0 0 1px #fff;
+    color: $link;
+    text-shadow: 0 0 0 1px $link;
   }
 }
 
 hr {
-  opacity: .2;
-  border-width: 0 0 5px 0;
+  opacity: .5;
+  border-width: 0 0 3px;
   border-style: dashed;
   background: transparent;
   width: 50%;
@@ -387,7 +388,7 @@ p.img-404 {
       }
 
       &:hover {
-        border-color: #fff;
+        border-color: $link;
       }
 
       svg {
@@ -565,12 +566,20 @@ hr.post-end {
     float: left;
     margin-right: 1.5em;
     max-width: 50%;
+
+    p {
+      text-align: center;
+    }
   }
 
   figure.right {
     float: right;
     margin-left: 1.5em;
     max-width: 50%;
+
+    p {
+      text-align: center;
+    }
   }
 
   figure.big {
@@ -652,7 +661,7 @@ hr.post-end {
   text-decoration: none;
   padding: 2px;
   border-radius: 2px;
-  background-color: $midnightblue;
+  background-color: $footnoteref;
 }
 
 .post-info {
