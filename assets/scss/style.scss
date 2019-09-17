@@ -429,17 +429,21 @@ p.img-404 {
   opacity: .8;
 
   a {
-    margin: 0 .2em;
+    margin: 0 .3em;
   }
 }
 
 #home-nav {
   opacity: .8;
 
+  margin-top: 2.5em;
+  display: flex;
+  justify-content: center;
+  
   a {
     display: block;
     text-align: center;
-    margin-top: .5em;
+    margin: .5em;
   }
 }
 
